@@ -1,39 +1,30 @@
-# node-js-getting-started
+# Hear2Text-getting-started
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
-
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+Empowering connections for people with auditory impairments
 
 ## Running Locally
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
 ```sh
-$ git clone https://github.com/heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
+$ git clone https://github.com/ilias-karimalis/angelhack2019
+$ cd angelhack2019
 $ npm install
 $ npm start
 ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-## Deploying to Heroku
+## Working with Google Cloud Speech To Text
+$ you'll need to generate a projectId, and Keyfile
+$ replace those variables in index.js
 
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Documentation
-
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+## Working with sound recording
+$ MAC - brew install sox
+$ PC 
+$ Go to My Computer → Properties → Advanced System Settings → Environment Variables → System variables.
+$ Select Path.
+$ Click Edit → New :
+$ Add this: C:\Program Files (x86)\sox-<CHECK YOUR VERSION NUMBER>\
+$ As indicated in the example path, make sure to check what version of Sox you have installed by actually navigating to your $ Program Files (x86) folder and looking for a folder that starts with sox, for example sox-14-4-2.
+$ Restart your terminal.
