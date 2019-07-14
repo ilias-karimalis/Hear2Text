@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "angelhack2019-1563002455055",
+  "private_key_id": "804a5c7d40ca64ff67d6e47c636a24d3d5fb8e87",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2//TVrkSHZ2dB\nxJG4miLzeqlLPOUka37Jfj6HyMcvXs0cDbJeId0/KssPE6S9lW2hVmbpS9Vk2IZx\npr7msT0eLSvWLfVGORMllyUG8iMUabxxml/PdR/RPYI43THurV9y6f8PeOKrYit5\nqXN1q+d95KU3286NiQXObRcoH8yaCsendhPdrl4qexm82HDnMNj2cfLfqUTQ1VTu\nnFKFHikJpvUbcUY7nTL1qZWUFV/hef/jybJ75KTJLPwP4RvDIqCMtXpqKd0Tvr6C\nAEFMygQWiY+FRp3St+DYP4r1y/VKoLQyFCLXS08j2z72kBgFK0VeF2GJ4F+KZWp7\ny4wV/qsHAgMBAAECggEAWQ7bghobM6I4+CLHoAUzOTbaqMjr4vuFal3L5Jzrgrwq\nKZro0TK9z33t8Fpo8/KCtd+smaDUKw3M8AZsJSzgR41IJiWblh80mDikRmsUc1y5\n3rd4JSgk4dmDRFUxdaxeJTiHbmowNaPC8KRskjmkoPnjBfos3WhvsPQaLua61cPS\niQsvCrVYvvY0o7QppOA37/KiVHovvOY6ImrgvnwQ8oF3+fiutiGKpKhUmY25D0wR\nqBycOK4Pr6mQLVj/UTcGoKwFaet/4GhVhD5Agx3TMG9pO9fP4nZMRNDLH1tzCWtS\neO0rmjo74NXTVHzagVVnLTwFaMNunneKwQbKGz3PsQKBgQDdV4fDaasTSQP55j4P\nZEqgXiaK24pMKo0lalsSdVEY5Bm0r51vVh/TjIIvqTuxid41N+dsW9PtXwxJoq8P\nDeS28fVx+pbYUEsROVNbfdOerb/F4k6kq3GbNLVtuA3a+bYq8ekIKeFvg3siNBev\nunPDgdYYQiDZIbWeLvdNS5sECwKBgQDTp3y4p7uq6ImCKitg4H2MPyWM+ka3nAIa\n7mgKnBlqokP7J/9ew5VZlPSIFFheJf7Elfgag7SBC2+huVOH/qJbxvB29mGsOyBo\n4G2LuRyFHL1RJb7XmZ6rxrg0EU2EyjHs7D7H+eygNTTxq6AM/vZufsBwM/Kkr5/Y\n8gk2L5K2dQKBgHlg/bdgpAsQWFjbNR81rWLiHpq5J8766qog985YfV97/sjCIUCj\n5xIYlG/Ui0KhyzQ98u/OL5qVK+TZjMxhnxHf/+xAMiZvaasJV7fteXYj6+11XBEb\nX1Jwhimj7B0wIQDN5i+u38xKOuUX0gFw6vjEo4ZsBR1tSe5z7PP7SQffAoGBAIp9\nMuyYRAGGekNDWHLhMQUNZIKkWJVXbUE18bnPfgn59sVl3ICjNRwSjRZlSZUBA3ya\nLGcc+oTdeMO3QeLgSFgJCdqtSCer4H7/Km6cRv8KWQ25xu/HwrzfIDRhhfl3W8eM\npV+wNpZ1ehkPlYArbA/MvBouw3vitpL7e++KnVLpAoGAWKv8ZCSu2di3MLG5up0a\n86u8m65sPdM+jb1gCavXAHdm94/YTH9ncNZV9H8RpfBItz9U3XWRNT00iZOclWiE\np14t0m63v+6MkxniSh956oRDILSiGba8gR3AjyRSnzjoBWl7ydrAqbOAqYMdoovP\nglhYhzRUCWgYI6kyPxHQx5w=\n-----END PRIVATE KEY-----\n",
+  "client_email": "transcribeaudio-769@angelhack2019-1563002455055.iam.gserviceaccount.com",
+  "client_id": "104662378351214504978",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/transcribeaudio-769%40angelhack2019-1563002455055.iam.gserviceaccount.com"
+}

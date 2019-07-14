@@ -146,6 +146,11 @@
         <div id="video" style="margin:0 auto;">
             <div id="agora_local" style="float:right;width:210px;height:147px;display:inline-block;"></div>
         </div>
+
+        <ul id="messages"></ul>
+        <form action="">
+            <input id="m" autocomplete="off" /><button>Send</button>
+        </form>
         <!-- end of content -->
 
     </div>
@@ -335,6 +340,22 @@
         //audioSelect.onchange = getDevices;
         //videoSelect.onchange = getDevices;
         getDevices();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script>
+        $(function () {
+            var socket = io();
+            $('form').submit(function (e) {
+                e.preventDefault(); // prevents page reloading
+                socket.emit('chat message', $('#m').val());
+                $('#m').val('');
+                return false;
+            });
+            socket.on('chat message', function (msg) {
+                $('#messages').append($('<li>').text(msg));
+            });
+        });
     </script>
 
     <!-- Bootstrap core JavaScript-->
