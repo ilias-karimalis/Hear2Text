@@ -16,12 +16,14 @@ $ npm start
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 ## Working with Google Cloud Speech To Text
+[Google Cloud](https://cloud.google.com/speech-to-text/)
 ```sh
 $ you'll need to generate a projectId, and Keyfile
 $ replace those variables in index.js
 ```
 
 ## Working with sound recording
+[SoX](http://sox.sourceforge.net/)
 ```sh
 $ MAC - brew install sox
 $ PC 
